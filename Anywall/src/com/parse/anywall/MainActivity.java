@@ -222,7 +222,7 @@ public class MainActivity extends FragmentActivity implements LocationListener,
     });
 
     // Set up the map fragment
-    mapFragment = (SupportMapFragment) this.getSupportFragmentManager().findFragmentById(R.id.map_fragment);
+    mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map_fragment);
     // Enable the current location "blue dot"
     mapFragment.getMap().setMyLocationEnabled(true);
     // Set up the camera change handler
