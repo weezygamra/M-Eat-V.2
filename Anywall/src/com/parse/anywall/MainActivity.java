@@ -99,10 +99,10 @@ public class MainActivity extends FragmentActivity implements LocationListener,
   private static final float OFFSET_CALCULATION_ACCURACY = 0.01f;
 
   // Maximum results returned from a Parse query
-  private static final int MAX_POST_SEARCH_RESULTS = 20;
+  private static final int MAX_POST_SEARCH_RESULTS = 50;
 
   // Maximum post search radius for map in kilometers
-  private static final int MAX_POST_SEARCH_DISTANCE = 100;
+  private static final int MAX_POST_SEARCH_DISTANCE = 10;
 
   /*
    * Other class member variables
